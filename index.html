@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./HTML Practise Assets/FES.svg" alt="Logo">
+            <img src="./HTML Practise Assets/FES.svg" class="logo" alt="Logo">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
@@ -16,9 +17,9 @@
             </ul>
         </nav>
         <header>
-            <div>
+            <div class="row"> 
                 <h1>Best place to learn frontend development</h1>
-                <p>Go from being an absolute beginner to pro with a simplified process</p>
+                <p class="subheader">Go from being an absolute beginner to pro with a simplified process</p>
                 <button>Start Now</button>
             </div>
             <figure>
@@ -30,17 +31,19 @@
    <main>
     <section id="about">
         <h2>About</h2>
-        <div>
-            <p>
-                Frontend Simplified is a platform dedicated to helping individuals learn frontend development in a simplifed and effective way.
-            </p>
-            <p>
-                We understand that learning frontend development can be overwhelming, especially for beginners. That's why we have create a comprehensive curriculum that breaks down complex concepts into easy-to-understand lessons and projects.
-            </p>
+        <div class="section_description">
+            <div class="section_description--wrapper">
+                <p>
+                 Frontend Simplified is a platform dedicated to helping individuals learn frontend development in a simplifed and effective way.
+                </p>
+                <p>
+                    We understand that learning frontend development can be overwhelming, especially for beginners. That's why we have create a comprehensive curriculum that breaks down complex concepts into easy-to-understand lessons and projects.
+                </p>
+            </div>
+            <figure class="about_img--wrapper">
+                <img src="./HTML Practise Assets/about.jpg" alt="About section image">
+            </figure>
         </div>
-        <figure>
-            <img src="./HTML Practise Assets/about.jpg" alt="About section image">
-        </figure>
     </section>
 
     <section id="discord">
