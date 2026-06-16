@@ -16,7 +16,7 @@ nav {
 }
 
 header { 
-    background-color: #cafdff;
+    background-color: #eadcff;
     height: calc(100vh - 70px);
     padding: 24px; 
     display: flex;
@@ -42,14 +42,14 @@ button{
     cursor: pointer;
 }
 
-a{
+a {
     color: #000;
     font-size: 24px;
     font-weight: 700;
 }
 
 .logo {
-    height: 300px;
+    width: 300px;
 }
 
 ul { 
