@@ -32,40 +32,46 @@
    <main>
     <section id="about">
         <h2>About</h2>
-        <div class="section_description">
-            <div class="section_description--wrapper">
-                <p>
-                 Frontend Simplified is a platform dedicated to helping individuals learn frontend development in a simplifed and effective way.
-                </p>
-                <p>
+        <div class="row">
+            <div class="section_description">
+                <div class="section_description--wrapper">
+                    <p class="section_description--para">
+                    Frontend Simplified is a platform dedicated to helping individuals learn frontend development in a simplifed and effective way.
+                    </p>
+                    <p class="section_description--para">
                     We understand that learning frontend development can be overwhelming, especially for beginners. That's why we have create a comprehensive curriculum that breaks down complex concepts into easy-to-understand lessons and projects.
-                </p>
+                    </p>
+                </div>
+                <figure class="about_img--wrapper">
+                    <img src="./HTML Practise Assets/about.jpg" alt="About section image">
+                </figure>
             </div>
-            <figure class="about_img--wrapper">
-                <img src="./HTML Practise Assets/about.jpg" alt="About section image">
-            </figure>
         </div>
     </section>
 
     <section id="discord">
         <h2>Discord</h2>
-            <figure>
-                <img src="./HTML Practise Assets/discord.png" alt="Discord image">
-            </figure>
-            <div>
-                <p>
-                    Join our vibrant community of frontend developers on Discord! Connect with like-minded individuals, ask questions, share your projects, and get support from experienced developers.
-                </p>
-                <p>
-                    Our Discord server is a welcoming space for Learners of all levels, where you can engage in discussions, participate in coding, challenges, and stay updated with the latest trends in frontend development.
-                </p>
+        <div class="row">
+            <div class="section_description">
+                <figure class="about_img--wrapper">
+                    <img src="./HTML Practise Assets/discord.png" alt="Discord image">
+                </figure>
+                <div class="section_description--wrapper">
+                    <p class="section_description--para">
+                        Join our vibrant community of frontend developers on Discord! Connect with like-minded individuals, ask questions, share your projects, and get support from experienced developers.
+                    </p>
+                    <p class="section_description--para">
+                        Our Discord server is a welcoming space for Learners of all levels, where you can engage in discussions, participate in coding, challenges, and stay updated with the latest trends in frontend development.
+                    </p>
+                </div>
             </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <div>
-            <p>
+            <p class="section_description--para">
             If you have any questions, feedback, or inquiries about our platform, please don't hesitate to reach out to us. We value your input and are here to assist you on your frontend development journey.
             </p>
         </div>
@@ -82,17 +88,17 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
             </div>
-            <button type="submit">Send Message</button>
+            <button type="submit">Contact Us!</button>
         </form>
     </section>
    </main>
 
    <footer>
-     <img src="./HTML Practise Assets/FES.svg" alt="Footer logo">
-     <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
+     <img class="footer_logo" src="./HTML Practise Assets/FES.svg" alt="Footer logo">
+     <div class ="footer_links">
+        <a class ="footer_link" href="#about">About</a>
+        <a class ="footer_link" href="#discord">Discord</a>
+        <a class ="footer_link" href="#contact">Contact</a>
      </div>
      <p>
         Copyright 2026 Frontend Simplified. All rights reserved.
